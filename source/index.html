@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Портфолио</title>
+    <link rel="preload" href="fonts/montserrat-v12-latin_cyrillic-regular.woff2" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts/montserrat-v12-latin_cyrillic-700.woff2" as="font" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style-min.css">
+  </head>
+
+  <body class="page">
+    <header class="page-header">
+      <div class="container">
+        <div class="page-header__inner">
+          <!-- Логотип -->
+          <div class="logo">
+            <a class="logo__link">
+              Sergey<br>
+              Shramko
+            </a>
+          </div>
+
+          <!-- Навигация -->
+          <nav class="main-navigation main-navigation--no-js">
+            <ul class="main-navigation__list">
+              <li class="main-navigation__item">
+                <a class="main-navigation__link" href="#skills" tabindex="2">Навыки</a>
+              </li>
+
+              <li class="main-navigation__item">
+                <a class="main-navigation__link" href="#works" tabindex="3">Работы</a>
+              </li>
+
+              <li class="main-navigation__item">
+                <a class="main-navigation__link" href="#footer" tabindex="4">Контакты</a>
+              </li>
+            </ul>
+
+            <button class="main-navigation__toggle toggle" type="button" tabindex="1">
+              <span class="visually-hidden">Кнопка открытия меню</span>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="about">
+        <div class="container">
+          <div class="about__inner">
+            <div class="about__title-wrapper">
+              <h1 class="about__title" data-period="2000" data-type='[ "Привет, я Сергей!", "Я web - разработчик."]'>
+                <span class="wrap"></span>
+              </h1>
+            </div>
+
+            <div class="about__text-wrapper">
+              <p>Люблю создавать удобные и красивые сайты!</p>
+
+              <p>
+                Работа разработчиком мне очень нравится из-за возможности расти и развиваться профессионально. Впереди
+                мне предстоит еще много чего изучить, но я хочу стать классным специалистом, поэтому каждый день изучаю
+                что-то
+                новое.
+              </p>
+
+              <p>
+                Окончил курсы в <a class="link" href="https://htmlacademy.ru/profile/id852139" title="Аккаунт в Академии" target="_blank">HTML Academy</a>, и
+                получил хорошую
+                базу знаний для верстки. Сейчас все возможное время уделяю изучению JavaScript и пробую новые для меня
+                технологии и фреймворки.
+              </p>
+
+              <p>
+                В основном весь опыт работы сейчас – это учебные и тренировочные проекты, а также тестовые задания от
+                разных компаний. Имею небольшой опыт удаленной работы.
+              </p>
+
+              <p>Больше информации в моем <a class="link" href="#" target="_blank">резюме</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Навыки -->
+      <section class="skills" id="skills">
+        <div class="container">
+          <div class="skills__inner">
+            <h2 class="skills__title">Стек технологий</h2>
+
+            <ul class="skills__list">
+              <li class="skills__item skills-item">
+                <h3 class="skills-item__title">БЭМ — методология</h3>
+
+                <svg class="skills__image" role="img" aria-label="Логотип BEM">
+                  <use xlink:href="img/sprite.svg#bem"></use>
+                </svg>
+              </li>
+
+              <li class="skills__item skills-item">
+                <h3 class="skills-item__title">Sass(SCSS)</h3>
+
+                <svg class="skills__image" role="img" aria-label="Логотип Sass">
+                  <use xlink:href="img/sprite.svg#sass"></use>
+                </svg>
+              </li>
+
+              <li class="skills__item skills-item">
+                <h3 class="skills-item__title">Gulp</h3>
+
+                <svg class="skills__image" role="img" aria-label="Логотип Gulp">
+                  <use xlink:href="img/sprite.svg#gulp"></use>
+                </svg>
+              </li>
+
+              <li class="skills__item skills-item" aria-label="Логотип Git">
+                <h3 class="skills-item__title">Git & GitHub</h3>
+
+                <svg class="skills__image" role="img">
+                  <use xlink:href="img/sprite.svg#git"></use>
+                </svg>
+              </li>
+
+              <li class="skills__item skills-item">
+                <h3 class="skills-item__title">Responsive & Mobile first</h3>
+
+                <svg class="skills__image" role="img" aria-label="Разноцветные блоки">
+                  <use xlink:href="img/sprite.svg#codefactor"></use>
+                </svg>
+              </li>
+
+              <li class="skills__item skills-item">
+                <h3 class="skills-item__title">Кроссбраузерность</h3>
+
+                <svg class="skills__image" role="img" aria-label="Логотип Internet Explorer">
+                  <use xlink:href="img/sprite.svg#internetexplorer"></use>
+                </svg>
+              </li>
+
+              <li class="skills__item skills-item">
+                <h3 class="skills-item__title">Валидная и семантичная разметка</h3>
+
+                <svg class="skills__image" role="img" aria-label="Логотип HTML5">
+                  <use xlink:href="img/sprite.svg#html"></use>
+                </svg>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Мои работы -->
+      <section class="works" id="works">
+        <div class="container">
+          <div class="works__inner">
+            <h2 class="works__title">Мои работы</h2>
+
+            <ul class="works__list">
+
+              <!-- Mishka -->
+              <li class="works__item works-item works-item--mishka">
+                <div class="works-item__info">
+                  <h3 class="works-item__title">
+                    <a class="works-item__link link" href="https://shramkoweb.github.io/Mishka" target="_blank">
+                      Mishka
+                    </a>
+                  </h3>
+
+                  <span class="works-item__type">Адаптив</span>
+
+                  <a class="works-item__link works-item__link--github link" href="https://github.com/Shramkoweb/Mishka" target="_blank">
+                    GitHub
+                  </a>
+                </div>
+
+
+                <div class="works-item__image-wrapper">
+                  <a href="https://shramkoweb.github.io/Mishka" target="_blank" title="Проект Mishka">
+                    <picture>
+                      <source type="image/webp" media="(min-width: 1150px)" srcset="img/mishka-desktop@1x.webp 1x, img/mishka-desktop@2x.webp 2x">
+                      <source type="image/webp" media="(min-width: 768px)" srcset="img/mishka-tablet@1x.webp 1x, img/mishka-tablet@2x.webp 2x">
+                      <source type="image/webp" srcset="img/mishka-mobile@1x.webp 1x, img/mishka-mobile@2x.webp 2x">
+                      <source media="(min-width: 1150px)" srcset="img/mishka-desktop@1x.png 1x, img/mishka-desktop@2x.png 2x">
+                      <source media="(min-width: 768px)" srcset="img/mishka-tablet@1x.png 1x, img/mishka-tablet@2x.png 2x">
+                      <img class="works-item__image" src="img/mishka-mobile@1x.png" srcset="img/mishka-mobile@2x.png 2x" alt="Проект Mishka">
+                    </picture>
+                  </a>
+                </div>
+              </li>
+
+              <!-- Pink -->
+              <li class="works__item works-item works-item--pink">
+                <div class="works-item__info">
+                  <h3 class="works-item__title">
+                    <a class="works-item__link link" href="https://shramkoweb.github.io/Pink" target="_blank">
+                      Pink
+                    </a>
+                  </h3>
+
+                  <span class="works-item__type">Адаптив</span>
+
+                  <a class="works-item__link works-item__link--github link" href="https://github.com/Shramkoweb/Pink" target="_blank">GitHub</a>
+                </div>
+
+                <div class="works-item__image-wrapper">
+                  <a href="https://shramkoweb.github.io/Pink" target="_blank" title="Проект Pink">
+                    <picture>
+                      <source type="image/webp" media="(min-width: 1150px)" srcset="img/pink-desktop@1x.webp 1x, img/pink-desktop@2x.webp 2x">
+                      <source type="image/webp" media="(min-width: 768px)" srcset="img/pink-tablet@1x.webp 1x, img/pink-tablet@2x.webp 2x">
+                      <source type="image/webp" srcset="img/pink-mobile@1x.webp 1x, img/pink-mobile@2x.webp 2x">
+                      <source media="(min-width: 1150px)" srcset="img/pink-desktop@1x.png 1x, img/pink-desktop@2x.png 2x">
+                      <source media="(min-width: 768px)" srcset="img/pink-tablet@1x.png 1x, img/pink-tablet@2x.png 2x">
+                      <img class="works-item__image" src="img/pink-mobile@1x.png" srcset="img/pink-mobile@2x.png 2x" alt="Проект Pink">
+                    </picture>
+                  </a>
+                </div>
+              </li>
+
+              <!-- Sedona -->
+              <li class="works__item works-item works-item--sedona">
+                <div class="works-item__info">
+                  <h3 class="works-item__title">
+                    <a class="works-item__link link" href="https://shramkoweb.github.io/Sedona" target="_blank">
+                      Sedona
+                    </a>
+                  </h3>
+
+                  <span class="works-item__type">Статик</span>
+
+                  <a class="works-item__link works-item__link--github link" href="https://github.com/Shramkoweb/Sedona" target="_blank">GitHub</a>
+                </div>
+
+                <div class="works-item__image-wrapper">
+                  <a href="https://shramkoweb.github.io/Sedona" target="_blank" title="Проект Sedona">
+                    <picture>
+                      <source type="image/webp" media="(min-width: 1150px)" srcset="img/sedona-desktop@1x.webp 1x, img/sedona-desktop@2x.webp 2x">
+                      <source type="image/webp" media="(min-width: 768px)" srcset="img/sedona-tablet@1x.webp 1x, img/sedona-tablet@2x.webp 2x">
+                      <source type="image/webp" srcset="img/sedona-mobile@1x.webp 1x, img/sedona-mobile@2x.webp 2x">
+                      <source media="(min-width: 1150px)" srcset="img/sedona-desktop@1x.png 1x, img/sedona-desktop@2x.png 2x">
+                      <source media="(min-width: 768px)" srcset="img/sedona-tablet@1x.png 1x, img/sedona-tablet@2x.png 2x">
+                      <img class="works-item__image" src="img/sedona-mobile@1x.png" srcset="img/sedona-mobile@2x.png 2x" alt="Проект Sedona">
+                    </picture>
+                  </a>
+                </div>
+              </li>
+
+              <!-- Cat Energy -->
+              <li class="works__item works-item works-item--sedona">
+                <div class="works-item__info">
+                  <h3 class="works-item__title">
+                    <a class="works-item__link link" href="#" target="_blank">
+                      Cat Energy - coming soon
+                    </a>
+                  </h3>
+
+                  <span class="works-item__type">Адаптив</span>
+
+                  <a class="works-item__link works-item__link--github link" href="https://github.com/Shramkoweb/Energy" target="_blank">GitHub</a>
+                </div>
+
+                <div class="works-item__image-wrapper">
+                  <a href="https://shramkoweb.github.io/Sedona" target="_blank" title="Проект Cat Energy">
+                    <picture>
+                      <source type="image/webp" media="(min-width: 1150px)" srcset="img/energy-desktop@1x.webp 1x, img/energy-desktop@2x.webp 2x">
+                      <source type="image/webp" media="(min-width: 768px)" srcset="img/energy-tablet@1x.webp 1x, img/energy-tablet@2x.webp 2x">
+                      <source type="image/webp" srcset="img/energy-mobile@1x.webp 1x, img/energy-mobile@2x.webp 2x">
+                      <source media="(min-width: 1150px)" srcset="img/energy-desktop@1x.png 1x, img/energy-desktop@2x.png 2x">
+                      <source media="(min-width: 768px)" srcset="img/energy-tablet@1x.png 1x, img/energy-tablet@2x.png 2x">
+                      <img class="works-item__image" src="img/energy-mobile@1x.png" srcset="img/energy-mobile@2x.png 2x" alt="Проект Cat Energy">
+                    </picture>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer" id="footer">
+      <div class="container">
+        <h2 class="page-footer__title"> Контакты</h2>
+
+        <div class="form-wrapper">
+          <form class="form" action="https://echo.htmlacademy.ru" method="POST">
+            <fieldset class="form__group">
+              <legend class="form__title">Отправьте мне письмо</legend>
+
+              <div class="form__row form__row--name">
+                <label for="name">Имя:</label>
+
+                <input type="text" name="name" id="name" required>
+              </div>
+
+              <div class="form__row form__row--mail">
+                <label for="mail">Почта:</label>
+
+                <input type="email" name="mail" id="mail" required>
+              </div>
+
+              <div class="form__row form__row--text">
+                <label for="text">Сообщение:</label>
+
+                <textarea class="form__textarea" name="text" id="text" cols="10" rows="10" required></textarea>
+              </div>
+            </fieldset>
+
+            <div class="button-warpper">
+              <button class="form__button button" type="submit">Отправить</button>
+            </div>
+          </form>
+        </div>
+
+        <!-- Контакты -->
+        <section class="contacts">
+          <ul class="contacts__list">
+            <li class="contacts__item contacts__item--mail">
+              <a class="link" href="mailto:shramko.web@yahoo.com" title="Моя почта">shramko.web@yahoo.com</a>
+            </li>
+
+            <li class="contacts__item contacts__item--phone">
+              <a class="link" href="tel:+380939339696" title="Мой мобильный номер">+38 093 933 96 96</a>
+            </li>
+          </ul>
+
+          <ul class="contacts__list">
+            <li class="contacts__item contacts__item--social">
+              <a class="link" href="https://github.com/Shramkoweb">
+                GitHub
+              </a>
+            </li>
+
+            <li class="contacts__item contacts__item--social">
+              <a class="link" href="https://htmlacademy.ru/profile/id852139">
+                HTML Academy
+              </a>
+            </li>
+
+            <li class="contacts__item contacts__item--social">
+              <a class="link" href="https://www.linkedin.com/in/sergey-shramko-838527170/">
+                Linkedin
+              </a>
+            </li>
+
+            <li class="contacts__item contacts__item--social">
+              <a class="link" href="https://twitter.com/Shramkoweb">
+                Twitter
+              </a>
+            </li>
+
+            <li class="contacts__item contacts__item--social">
+              <a class="link" href="https://www.instagram.com/shramko.sergey">
+                Instagram
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/svg4everybody.js"></script>
+    <script>svg4everybody();</script>
+    <script src="js/picturefill.js"></script>
+  </body>
+
+</html>
