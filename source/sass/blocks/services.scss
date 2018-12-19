@@ -1,0 +1,48 @@
+.services {
+  margin-top: 80px;
+}
+
+.services__list {
+  @include list-reset;
+
+  display: grid;
+  padding-bottom: 80px;
+
+  border-bottom: 2px solid #eeeeee;
+
+  grid-column-gap: 100px;
+  grid-row-gap: 25px;
+  grid-template-columns: 300px 300px 300px;
+}
+
+.services__title {
+  margin: 0;
+  margin-top: 24px;
+  margin-bottom: 16px;
+
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.services__text {
+  max-width: 260px;
+  margin: 0;
+  margin-bottom: 35px;
+}
+
+.services__button {
+  min-width: 160px;
+
+  &--first {
+    background-color: #fb565a;
+  }
+
+  &--two {
+    background-color: #00ca74;
+  }
+
+  &--third {
+    background-color: #efc84a;
+  }
+}
