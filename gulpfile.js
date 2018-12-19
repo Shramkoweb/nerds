@@ -109,6 +109,7 @@ gulp.task("cleanImg", function () {
   return del([
     "build/img/**/*.svg",
     "!build/img/sprite.svg",
+    "!build/img/nerds-logo.svg"
   ]);
 });
 
@@ -117,7 +118,6 @@ gulp.task("build", gulp.series(
   "copy",
   "css",
   "sprite",
-  "cleanImg",
   "webp",
   "html"
 ));

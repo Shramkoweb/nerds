@@ -1,0 +1,10 @@
+.page-header {
+  background-color: $grey;
+  padding-top: 50px;
+}
+
+.page-header__inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
