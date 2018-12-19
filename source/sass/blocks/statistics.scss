@@ -1,0 +1,44 @@
+.statistics {
+  display: flex;
+  flex-direction: column;
+  max-width: 360px;
+}
+
+.statistics__title {
+  margin-top: 35px;
+
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.statistics__list {
+  @include list-reset;
+
+  display: flex;
+  margin-top: 50px;
+}
+
+.statistics__item {
+  max-width: 33%;
+
+  b {
+    font-size: 45px;
+    color: #000000;
+  }
+
+  p {
+    margin: 0;
+    margin-top: 20px;
+
+    line-height: 18px;
+  }
+
+  sup {
+    position: relative;
+    top: -13px;
+    left: -12px;
+
+    font-size: 30px;
+  }
+}
